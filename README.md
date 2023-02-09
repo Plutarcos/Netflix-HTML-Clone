@@ -1,1 +1,1 @@
-THIS IS A TRAINING PROJECT
+This is a training page where i'll try to replicate Netflix's layout
