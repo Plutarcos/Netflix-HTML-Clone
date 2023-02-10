@@ -17,13 +17,13 @@
         <div class="Login-Form">
             <h2>Entrar</h2>
             <form action="">
-                <input class="loginText" type="text" placeholder="Email ou número de telefone">
+                <input class="loginText" required type="email"  placeholder="Email ou número de telefone"/>
                 <br>
                 <br>
-                <input class="loginText" type="password" placeholder="Senha">
+                <input class="loginText" required type="password" placeholder="Senha" oninvalid="this.setCustomValidity('Insira sua senha!')"/>
                 <br>
                 <br>
-                <input  class="loginButton" type="button" value="Entrar">
+                <input  class="loginButton" type="submit"  value="Entrar"/>
             </form>
             <p class="belowLoginButton"><input type="checkbox" name="" id="">Lembre-se de mim</input> <a href="">Precisa de ajuda?</a></p>
             <p>Novo por aqui? <a href="">Assine agora</a>.</p>
